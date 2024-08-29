@@ -14,12 +14,12 @@ Scanner(System.in);
 public static long calculatedFactorial(int n){
 	if (n<0){
 		System.out.println("Factorial is not defined for negative numbers.");
-		return -1:
+		return -1;
 		}
 	long result=1;
 	for(int i=1; i<=n;i++){
 		result *=i;
 		}
-	return result:
+	return result;
 	}
 }
